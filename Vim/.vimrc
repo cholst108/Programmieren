@@ -6,6 +6,7 @@
 " ----------------------------
 set number
 syntax on
+set showtabline=2
 
 filetype plugin indent on
 set ts=2 sts=2 sw=2 et ai si
@@ -37,7 +38,8 @@ Plugin 'morhetz/gruvbox'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plugin 'octol/vim-cpp-enhanced-highlight'
-Plugin 'neoclide/coc.nvim', { 'branch': 'master', 'do': 'npm ci' }
+"Plugin 'neoclide/coc.nvim', { 'branch': 'master', 'do': 'npm ci' }
+Plugin 'neoclide/coc.nvim'
 Plugin 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plugin 'junegunn/fzf.vim' 
 call vundle#end()            " required
