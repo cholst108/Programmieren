@@ -5,6 +5,7 @@
 
 using namespace std;
 
+// Funktion zur Auswertung des Input-Strings
 void Auswertung(string* str, int mode){
 
 	// Modus Auswahl
@@ -27,8 +28,10 @@ void Auswertung(string* str, int mode){
     };
 };
 
+// Hauptroutine
 int main(){
 
+    // der String (=Zeichenkette) des Users
 	string strUserAnweisung;
 
 	// endlosschleife

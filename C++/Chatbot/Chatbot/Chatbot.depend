@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1714326244 source:/home/cholst/Programmieren/C++/Chatbot/Chatbot/main.cpp
+	<iostream>
+	"chatbot.h"
+
+1714326196 /home/cholst/Programmieren/C++/Chatbot/Chatbot/chatbot.h
+	<string>
+
+1714326196 source:/home/cholst/Programmieren/C++/Chatbot/Chatbot/chatbot.cpp
+	<string>
+	<iostream>
+	"chatbot.h"
+
