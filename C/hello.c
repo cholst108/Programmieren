@@ -1,8 +1,9 @@
-#include "stdio.h"
+#include "hellolib.h"
+#include <unistd.h>
 
-int main(){
-    printf("Hallo Welt");
+int main (){
+    sayhello("Tammo");  
+    sleep(30);
     return 0;
 }
-
 

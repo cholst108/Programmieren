@@ -1,0 +1,3 @@
+/home/cholst/Programmierung/C/zeiger/build/CMakeFiles/app.dir
+/home/cholst/Programmierung/C/zeiger/build/CMakeFiles/edit_cache.dir
+/home/cholst/Programmierung/C/zeiger/build/CMakeFiles/rebuild_cache.dir
