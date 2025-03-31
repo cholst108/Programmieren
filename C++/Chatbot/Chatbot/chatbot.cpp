@@ -28,7 +28,7 @@ void cChatbot::AnalyseInput(){
 
         // Version 2: mit Reaktion auf Schlagworte
         case 2:
-            if      ((this->str).find("bier") != std::string::npos){
+            if ((this->str).find("bier") != std::string::npos){
                 cout << "Gute Wahl! Ich hole eins..." << endl;
             }else if ((this->str).find("milch") != std::string::npos){
                 cout << "Auch net schlecht." << endl;
